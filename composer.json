@@ -1,0 +1,23 @@
+{
+    "name": "dbseller/aluraplay",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Dbseller\\Aluraplay\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Laura",
+            "email": "lauragolombieskib@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-message": "^2.0",
+        "nyholm/psr7": "^1.8",
+        "nyholm/psr7-server": "^1.1",
+        "psr/http-server-handler": "^1.0",
+        "php-di/php-di": "^6.4",
+        "league/plates": "^3.5"
+    }
+}
